@@ -1,0 +1,6 @@
+endpoint: https://us1.prisma.sh/goodman-970a67/prismagram/dev
+datamodel: datamodel.prisma
+
+generate:
+  - generator: typescript-client
+    output: ./generated/prisma-client/
